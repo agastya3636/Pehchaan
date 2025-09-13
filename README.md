@@ -21,6 +21,10 @@ This platform goes beyond e-commerce – it builds **community trust**, **storyt
 * **Smart Filters & Categories** (region, art type, material, price)
 * **Responsive Design** (mobile-first approach)
 * **Shopping Cart** (add/remove items, quantity management)
+* **🚀 AI-powered social media content generation** (frontend implemented, backend coming soon)
+* **🚀 Video generation with Veo AI for marketing and social media** (frontend implemented, backend coming soon)
+* **🚀 Smart price prediction for artisans** (frontend implemented, backend coming soon)
+* **🚀 Competitor analysis option integration in artisan dashboard** (frontend implemented, backend coming soon)
 
 ### 🔧 Technical Features
 * **JWT Authentication** (secure user sessions)
@@ -36,12 +40,6 @@ This platform goes beyond e-commerce – it builds **community trust**, **storyt
 * **Multilingual Interface** (English/Hindi support)
 * **Responsive Design** (works on all devices)
 
-### 🚀 Advanced Features (Coming Soon)
-* **Social Media Content Generation** (auto-generate images with hashtags)
-* **AI Video Generation** (product showcase videos using Veo AI)
-* **Price Prediction** (AI-powered pricing recommendations for artisans)
-* **Competitor Analysis** (market insights and pricing intelligence)
-* **Smart Analytics Dashboard** (comprehensive business insights)
 
 ---
 
@@ -363,6 +361,10 @@ pehchaan/
 - ✅ Multilingual support (English/Hindi)
 - ✅ Responsive design for all devices
 - ✅ Role-based dashboards (Buyer/Artisan)
+- ✅ AI-powered social media content generation (frontend)
+- ✅ Video generation with Veo AI (frontend)
+- ✅ Smart price prediction for artisans (frontend)
+- ✅ Competitor analysis in artisan dashboard (frontend)
 
 **Backend Ready:**
 - 🔧 Express.js API server
@@ -378,12 +380,15 @@ pehchaan/
 - 🎯 Shopping cart and order flow
 - 🎯 Multilingual support
 - 🎯 Responsive design for all devices
+- 🎯 AI-powered social media content generation
+- 🎯 Video generation with Veo AI
+- 🎯 Smart price prediction for artisans
+- 🎯 Competitor analysis in artisan dashboard
 
 **Future Enhancements:**
-- 🚀 AI-powered social media content generation
-- 🚀 Video generation with Veo AI for marketing and social media
-- 🚀 Smart price prediction for artisans
-- 🚀 Competitor analysis option integration in artisan dashboard
+- 🔧 Backend integration for AI-powered features
+- 🔧 Smart Analytics Dashboard (comprehensive business insights)
+- 🔧 Advanced AI model training and optimization
 
 ---
 
@@ -398,6 +403,10 @@ pehchaan/
 6. **Responsive Design** - Works seamlessly on desktop and mobile
 7. **Shopping Cart** - Add items and proceed to checkout
 8. **Authentication** - Register, login, and manage profile
+9. **AI Social Media** - Generate marketing content with AI
+10. **Video Generation** - Create product showcase videos with Veo AI
+11. **Price Prediction** - Get AI-powered pricing recommendations
+12. **Competitor Analysis** - Analyze market trends and competition
 
 ### Perfect for Showcasing:
 - ✅ Complete user journey from browsing to checkout
