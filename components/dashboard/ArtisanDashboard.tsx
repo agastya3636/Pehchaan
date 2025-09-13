@@ -43,6 +43,10 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { ProductUploadModal } from './ProductUploadModal';
+import { SocialMediaGenerator } from './SocialMediaGenerator';
+import { VideoGenerator } from './VideoGenerator';
+import { PricePrediction } from './PricePrediction';
+import { CompetitorAnalysis } from './CompetitorAnalysis';
 
 export function ArtisanDashboard() {
   const { user } = useAppStore();
@@ -164,12 +168,18 @@ export function ArtisanDashboard() {
 
       {/* Main Content */}
       <Tabs defaultValue="analytics" className="space-y-8">
-        <TabsList className="grid w-full grid-cols-3 lg:w-auto lg:grid-cols-3 h-12 bg-card/50 backdrop-blur-sm border-0 shadow-lg">
+        <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-5 h-12 bg-card/50 backdrop-blur-sm border-0 shadow-lg">
           <TabsTrigger value="analytics" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
             Analytics
           </TabsTrigger>
           <TabsTrigger value="products" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
-            My Products
+            Products
+          </TabsTrigger>
+          <TabsTrigger value="ai-tools" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
+            AI Tools
+          </TabsTrigger>
+          <TabsTrigger value="marketing" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
+            Marketing
           </TabsTrigger>
           <TabsTrigger value="integrations" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
             Integrations
@@ -337,6 +347,30 @@ export function ArtisanDashboard() {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </TabsContent>
+
+        <TabsContent value="ai-tools" className="space-y-8">
+          <div>
+            <h3 className="text-2xl font-bold text-foreground mb-2">AI-Powered Tools</h3>
+            <p className="text-muted-foreground mb-8">Leverage artificial intelligence to optimize your business</p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <PricePrediction />
+            <CompetitorAnalysis />
+          </div>
+        </TabsContent>
+
+        <TabsContent value="marketing" className="space-y-8">
+          <div>
+            <h3 className="text-2xl font-bold text-foreground mb-2">Marketing & Content Creation</h3>
+            <p className="text-muted-foreground mb-8">Create engaging content and reach more customers</p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-8">
+            <SocialMediaGenerator />
+            <VideoGenerator />
           </div>
         </TabsContent>
 
